@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar {
+  background: transparent;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  nav.navbar .navbar-collapse {
+    border: 0;
+    box-shadow: none;
+  }
+}
+header {
+  background-image: url('https://s3-media1.fl.yelpcdn.com/bphoto/zuvXn2R-gyI7yRBvU6uvoA/o.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+header.jumbotron h1 {
+  padding-top: 100px;
+}
+header.jumbotron h1,
+header.jumbotron p {
+  color: white;
+}
+
+h6, h5.font-weight-bold {
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-deck {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.card-deck > .card > img {
+  max-height: 200px;
+  min-height: 200px ;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0);
+}
+
+.card.mb-3 {
+  margin-right: 0%;
+  margin-left: 25%;
+
+}
+h5 {
+  text-align: center;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.page-footer {
+  background: rgb(188, 189, 184);
+}
